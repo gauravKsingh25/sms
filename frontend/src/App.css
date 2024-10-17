@@ -1,0 +1,78 @@
+/* src/styles.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;700&display=swap");
+
+body {
+  font-family: "Mukta", sans-serif; /* Updated font family */
+  background-color: #141414; /* Dark background */
+  color: #fff5cd; /* Light text color */
+}
+
+a {
+  color: #e78f81; /* Light coral */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #141414;
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  color: #b7e0ff; /* Light blue for headings */
+}
+
+/* Container for homepage */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Card styles for boxes */
+.card {
+  background-color: #1c1c1c; /* Dark card background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Soft shadow */
+  transition: transform 0.3s; /* Animation */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #b7e0ff; /* Light blue border */
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #e78f81; /* Light coral for header */
+  color: #141414; /* Dark text */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
